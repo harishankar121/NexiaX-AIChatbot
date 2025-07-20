@@ -21,22 +21,22 @@ https://github.com/user-attachments/assets/a0ccc5cb-bd6b-450f-a452-988fc0d5fb58
 ---
 NexiaX comes packed with features to boost your productivity and interaction:
 
-* *AI-Powered Chat* - Intelligent and context-aware responses driven by Google Gemini AI.
-* *DeepDive Mode* - Dedicated for in-depth analysis of complex topics and documents.
-* *PDF Interpreter* - Upload PDFs to extract information, solve queries, or generate summaries.
-* *Markdown Support* - Clean, readable chat responses with proper formatting and code highlighting.
-* *Adaptive UI* - Toggle between Dark and Light themes for comfortable viewing.
-* *Mobile-Friendly Design* - Fully responsive and optimized for seamless experience on all devices.
-* *Smart History* - Efficiently manage and save conversations for future review.
+* **AI-Powered Chat** - Intelligent and context-aware responses driven by Google Gemini AI.
+* **DeepDive Mode** - Dedicated for in-depth analysis of complex topics and documents.
+* **PDF Interpreter** - Upload PDFs to extract information, solve queries, or generate summaries.
+* **Markdown Support** - Clean, readable chat responses with proper formatting and code highlighting.
+* **Adaptive UI** - Toggle between Dark and Light themes for comfortable viewing.
+* **Mobile-Friendly Design** - Fully responsive and optimized for seamless experience on all devices.
+* **Smart History** - Efficiently manage and save conversations for future review.
 
   
 
 ### Technologies Used
 ---
-* *Frontend:* Next.js (App Router), React, TypeScript
-* *Styling:* Tailwind CSS, shadcn/ui components
-* *AI:* Google Gemini AI API
-* *Utilities:* PDF.js (for parsing), Framer Motion (animations), Sonner (notifications), JS Confetti (effects)
+* **Frontend:** Next.js (App Router), React, TypeScript
+* **Styling:** Tailwind CSS, shadcn/ui components
+* **AI:** Google Gemini AI API
+* **Utilities:** PDF.js (for parsing), Framer Motion (animations), Sonner (notifications), JS Confetti (effects)
 
 
 
@@ -44,39 +44,39 @@ NexiaX comes packed with features to boost your productivity and interaction:
 ---
 To run NexiaX locally, follow these steps:
 
-1.  *Clone the repository:*
+1.  **Clone the repository:**
    
-    bash
+    ```bash
     git clone [https://github.com/Sakshisingh409/NexiaX-AIChatbot.git]
     (https://github.com/Sakshisingh409/NexiaX-AIChatbot.git)
     cd NexiaX-AIChatbot
-    
+    ```
 
-2.  *Install dependencies:*
+2.  **Install dependencies:**
 
-    bash
+    ```bash
     npm install
     # or
     yarn install
     # or
     pnpm install
-    
+    ```
 
-3.  *Create a .env.local file in the root directory and add your Gemini API key:*
+3.  **Create a .env.local file in the root directory and add your Gemini API key:**
 
     
     NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
     
 
-4.  *Run the development server:*
+4.  **Run the development server:**
    
-   bash
+   ```bash
    npm run dev
    #or
    yarn dev
    #or
    pnpm dev
-
+   ```
 Access NexiaX at http://localhost:3000 in your browser.
    
     
@@ -85,14 +85,14 @@ Access NexiaX at http://localhost:3000 in your browser.
 ---
 Essential configurations for NexiaX:
 
-1.  *Gemini API Key:* Obtain from Google AI Studio and add to .env.local.
-2.  *PDF.js Worker:* Automatically loaded from CDN.
-3.  *Tailwind CSS:* Pre-configured in the project.
+1.  **Gemini API Key:** Obtain from Google AI Studio and add to .env.local.
+2.  **PDF.js Worker:** Automatically loaded from CDN.
+3.  **Tailwind CSS:** Pre-configured in the project.
 
 
 ### 📂 Project Structure Overview
 ---
-bash
+```bash
 nexiax-chatbot/
 ├── app/                
 │   ├── layout.tsx
@@ -107,7 +107,7 @@ nexiax-chatbot/
 ├── package.json
 ├── tailwind.config.js
 └── tsconfig.json
- 
+ ```
 
 ### 🔑 Environment Variables
 ---
@@ -118,9 +118,9 @@ NEXT_PUBLIC_GEMINI_API_KEY - Your Google Gemini API key.
 
 ### ⚠ Known Issues
 ---
-* *Large PDF Files:* Parsing may cause performance issues.
-* *DeepDive Mode Token Usage:* Consumes more API tokens for comprehensive analysis.
-* *Mobile Performance:* May degrade with many conversation items.
+* **Large PDF Files:** Parsing may cause performance issues.
+* **DeepDive Mode Token Usage:** Consumes more API tokens for comprehensive analysis.
+* **Mobile Performance:** May degrade with many conversation items.
 ---
 
 *Thank you for exploring NexiaX!*
